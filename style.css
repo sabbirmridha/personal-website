@@ -1,0 +1,134 @@
+
+/* Add a black background color to the top navigation */
+.topnav {
+   
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color :silver;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    
+    color:black;
+    border-radius: 5px;
+  }
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.top-banner{
+
+    background-color: white;
+}
+
+
+h1{
+    font-size: 45px;
+    
+}
+h2{
+    font-size: 35px;
+}
+p{
+    color: dimgray;
+}
+
+
+.orange-highlight{
+
+    color: violet;
+}
+.half-width{
+
+    width: 40%;
+    float: left;
+    margin-left: 5;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+    background-color: white;
+}
+.link-button{
+
+    text-decoration: none;
+    background-color: purple;
+    padding: 10px 20px;
+    border-radius: 14px;
+    color: white;
+    font-weight: 700;
+
+}
+
+.dream-area{
+
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: white;
+}
+
+.project-area{
+    
+    background-color: #f1f1f1;
+    
+    
+}
+.project-highlight{
+
+    color: orangered;
+}
+.title-zone{
+    text-align: center;
+}
+.single-box{
+
+    box-sizing: border-box;
+    box-shadow: 9px 9px 5px gray;
+    border-radius: 15px;
+    background-color: white;
+    float: left;
+    width: 33.33%;
+    display: block;
+    padding: 10px;
+    
+   
+
+}
+.work-inq{
+
+    background-color: white;
+    
+}
+
+.social-p{
+    text-align: center;
+}
+
